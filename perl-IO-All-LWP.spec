@@ -38,7 +38,7 @@ z plików i zapisywaæ do nich poprzez siec, korzystaj±c z wygodnego
 interfejsu IO:All. Uwaga: modu³u tego nie u¿ywa siê bezpo¶rednio;
 nale¿y po prostu korzystaæ z IO::All, który wie, kiedy za³adowaæ
 modu³y IO::All::HTTP, IO::All::HTTPS lub IO::All::FTP implementuj±ce
-poszczególne protoko³y w ooparciu o IO::All::LWP.
+poszczególne protoko³y w oparciu o IO::All::LWP.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
