@@ -27,13 +27,18 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 This module acts as glue between IO::All and LWP, so that files can
 be read and written through the network using the convenient IO:All
-interface.  Note that this module is not C<use>d directly: you just use
+interface. Note that this module is not used directly: you just use
 IO::All, which knows when to autoload IO::All::HTTP, IO::All::HTTPS,
 or IO::All::FTP, which implement the specific protocols with base on
 IO::All::LWP.
 
-# %description -l pl
-# TODO
+%description -l pl
+Modu³ ten dzia³a jako modu³ ³±cz±cy IO::All i LWP tak, ¿e mo¿na czytaæ
+z plików i zapisywaæ do nich poprzez siec, korzystaj±c z wygodnego
+interfejsu IO:All. Uwaga: modu³u tego nie u¿ywa siê bezpo¶rednio;
+nale¿y po prostu korzystaæ z IO::All, który wie, kiedy za³adowaæ
+modu³y IO::All::HTTP, IO::All::HTTPS lub IO::All::FTP implementuj±ce
+poszczególne protoko³y w ooparciu o IO::All::LWP.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
