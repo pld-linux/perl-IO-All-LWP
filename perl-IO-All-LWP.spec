@@ -6,7 +6,7 @@
 %define	pdir	IO
 %define	pnam	All-LWP
 Summary:	IO::All::LWP - IO::All interface to LWP
-Summary(pl):	IO::All::LWP - interfejs IO::All do LWP
+Summary(pl.UTF-8):   IO::All::LWP - interfejs IO::All do LWP
 Name:		perl-IO-All-LWP
 Version:	0.12
 Release:	1
@@ -32,13 +32,13 @@ IO::All, which knows when to autoload IO::All::HTTP, IO::All::HTTPS,
 or IO::All::FTP, which implement the specific protocols with base on
 IO::All::LWP.
 
-%description -l pl
-Modu³ ten dzia³a jako modu³ ³±cz±cy IO::All i LWP tak, ¿e mo¿na czytaæ
-z plików i zapisywaæ do nich poprzez siec, korzystaj±c z wygodnego
-interfejsu IO:All. Uwaga: modu³u tego nie u¿ywa siê bezpo¶rednio;
-nale¿y po prostu korzystaæ z IO::All, który wie, kiedy za³adowaæ
-modu³y IO::All::HTTP, IO::All::HTTPS lub IO::All::FTP implementuj±ce
-poszczególne protoko³y w oparciu o IO::All::LWP.
+%description -l pl.UTF-8
+ModuÅ‚ ten dziaÅ‚a jako moduÅ‚ Å‚Ä…czÄ…cy IO::All i LWP tak, Å¼e moÅ¼na czytaÄ‡
+z plikÃ³w i zapisywaÄ‡ do nich poprzez siec, korzystajÄ…c z wygodnego
+interfejsu IO:All. Uwaga: moduÅ‚u tego nie uÅ¼ywa siÄ™ bezpoÅ›rednio;
+naleÅ¼y po prostu korzystaÄ‡ z IO::All, ktÃ³ry wie, kiedy zaÅ‚adowaÄ‡
+moduÅ‚y IO::All::HTTP, IO::All::HTTPS lub IO::All::FTP implementujÄ…ce
+poszczegÃ³lne protokoÅ‚y w oparciu o IO::All::LWP.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
