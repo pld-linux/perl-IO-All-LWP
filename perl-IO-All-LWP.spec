@@ -6,7 +6,7 @@
 %define	pdir	IO
 %define	pnam	All-LWP
 Summary:	IO::All::LWP - IO::All interface to LWP
-Summary(pl.UTF-8):   IO::All::LWP - interfejs IO::All do LWP
+Summary(pl.UTF-8):	IO::All::LWP - interfejs IO::All do LWP
 Name:		perl-IO-All-LWP
 Version:	0.12
 Release:	1
