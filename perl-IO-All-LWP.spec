@@ -8,13 +8,13 @@
 Summary:	IO::All::LWP - IO::All interface to LWP
 Summary(pl.UTF-8):	IO::All::LWP - interfejs IO::All do LWP
 Name:		perl-IO-All-LWP
-Version:	0.12
+Version:	0.14
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	4d4a3041fc14c80a0c174f00a540df8a
+# Source0-md5:	2971dc7889c0c523237b1fd4488c6cdb
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
